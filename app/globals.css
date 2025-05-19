@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+  --color-1: 0 100% 63%;
+  --color-2: 270 100% 63%;
+  --color-3: 210 100% 63%;
+  --color-4: 195 100% 63%;
+  --color-5: 90 100% 63%;
+}
+
+/*@media (prefers-color-scheme: dark) {*/
+/*  :root {*/
+/*    --background: #0a0a0a;*/
+/*    --foreground: #ededed;*/
+/*  }*/
+/*}*/
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  .icon_skills {
+    @apply flex items-center border border-slate-600 px-5 py-3 shadow-slate-300 text-xl min-[360px]:text-xs sm:text-xl rounded-lg gap-3 bg-slate-100 text-black dark:text-white dark:bg-slate-800 justify-center min-[360px]:justify-start min-[960px]:text-xs min-[1700px]:text-xl sm:justify-center min-[768px]:text-sm;
+  }
+}
