@@ -33,7 +33,7 @@ const Hero = () => {
 
 	return (
 		<section id="home">
-			<div className="flex relative flex-col items-center justify-center bg-white dark:bg-slate-900 dark:text-white">
+			<div className="flex relative flex-col items-center justify-center bg-white dark:bg-slate-900 dark:text-white h-screen">
 				<Navbar />
 				<div className="grid grid-cols-1 min-[940px]:grid-cols-2 w-full p-20 my-5 sm:my-10">
 					<div className="flex flex-col items-center justify-center z-10">
